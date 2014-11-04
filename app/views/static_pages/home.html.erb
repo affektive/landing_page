@@ -1,0 +1,104 @@
+<div class='fullpage-home'>
+	<div class='section' id='section1'>
+		<section class='intro'>
+      <h1 id='header-text-position'>Affektive Software</h1>
+			<br><br><br><br>
+      <h1>
+				<span class='rotate' style='color: #1DE9B6;'>
+				Design, Strategy, Marketing, Development
+				</span>
+			</h1>
+  	</section>
+	</div>
+	<div class='section' id='section2'>
+    <center>
+			<h2 class='blue-accent'>Design</h2>
+			<h4>
+				Brand<br>
+				UI/UX<br>
+				Website
+			</h4>
+	    <h2 class='blue-accent'>Strategy</h2>
+      <h4>
+				Software<br>
+        Marketing<br>
+        Technology
+			</h4>
+			<h2 class='blue-accent'>Marketing</h2>
+			<h4>
+				Content<br>
+				Email/SMS<br>
+				Social Networking
+			</h4>
+	    <h2 class='blue-accent'>Development</h2>
+      <h4>
+				Web<br>
+	      Mobile Web<br>
+	      Wordpress
+			</h4>
+    </center>
+		<br><br><br><br>
+	</div>
+	<div class='section' id='section3'>
+		<div class='content'>
+      <h1 id='header-text-position'>Our Portfolio</h1><br>
+      <center>
+	      <div class='row'>
+					<div class='col-md-2'></div>
+	        <div class='col-md-4'>
+	          <h2 class='green-accent'>DigiQuatics</h2>
+	          <%= image_tag('/images/dq.png', alt: 'DigiQuatics', width:'400px;') %><br>
+	          <a href='http://www.digiquatics.com' 
+							 class='btn btn-default btn-lg active' role='button'>See More
+						</a>
+	        </div>
+	        <div class='col-md-4'>
+	          <h2 class='green-accent'>Open Water Tracker</h2>
+	          <%= image_tag('/images/owt.png', alt: 'Open Water Tracker', width:'400px;') %><br>
+	          <a href='http://www.weowepro.com' 
+							 class='btn btn-default btn-lg active' role='button'>See More
+						</a>
+	        </div>
+					<div class='col-md-2'></div>
+	      </div>
+    	</center>
+		  <br><br><br><br>
+   	</div>
+	</div>
+	<div class='section' id='section4'>
+	  <center>
+			<h2 class='blue-accent'>Contact Us</h2>
+			<div class="form-positioning ">
+				<form>
+			    <div class='group'>
+			      <input type='text' required>
+			      <span class='highlight'></span>
+			      <span class='bar'></span>
+			      <label>Name</label>
+			    </div>
+					<div class='group'>
+						<input type='text' required>
+						<span class='highlight'></span>
+						<span class='bar'></span>
+						<label>Email</label>
+					</div>
+					<div class='group'>
+						<input type='text' required>
+						<span class='highlight'></span>
+						<span class='bar'></span>
+						<label>Message</label>
+					</div>
+					<button class='btn btn-default btn-lg'>Submit</button>
+				</form>
+			</div>
+		</center>
+	</div>
+</div>
+
+<script>
+	$(".rotate").textrotator({
+	animation: "dissolve",
+	separator: ",",
+	speed: 3500
+});
+</script>
